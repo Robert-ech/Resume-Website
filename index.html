@@ -297,6 +297,24 @@
     margin: 20px 0 28px;
   }
 
+  /* EMBED */
+  .embed-wrap {
+    margin-top: 18px;
+    width: 302px;
+    height: 550px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .embed-wrap iframe {
+    width: 504px;
+    height: 916px;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+
   /* MARQUEE */
   .marquee-section {
     
@@ -393,8 +411,8 @@
     <p class="hero-label">Data Science · Machine Learning</p>
     <h1>Roberto<br>Echeverria</h1>
     <div class="hero-meta">
-      <span><span class="dot"></span><a href="(323) 809-5834" target="_blank">(323) 809-5834</a></span>
-      <span><span class="dot"></span><a href="Recheverriasosa@ucsd.edu"target="_blank">Recheverriasosa@ucsd.edu</a></span>
+      <span><span class="dot"></span><a href="tel:+13238095834">(323) 809-5834</a></span>
+      <span><span class="dot"></span><a href="mailto:recheverriasosa@ucsd.edu">Recheverriasosa@ucsd.edu</a></span>
       <span><span class="dot"></span><a href="https://www.linkedin.com/in/robertoecheverriasosa" target="_blank">LinkedIn</a></span>
       <span><span class="dot"></span><a href="https://github.com/Robert-ech"target="_blank">Github</a></span>
       
@@ -408,13 +426,13 @@
         <span class="edu-school">UC San Diego</span>
         <span class="edu-gpa">GPA 3.94</span>
       </div>
-      <p class="edu-degree">B.S. Data Science — Machine Learning Track &nbsp;·&nbsp; La Jolla, CA &nbsp;·&nbsp; June 2027</p>
+      <p class="edu-degree">B.S. Data Science — Machine Learning Track &nbsp;·&nbsp; La Jolla, CA &nbsp;·&nbsp; Expected Dec 2027</p>
       <div class="divider"></div>
       <p style="font-size:13px; color:var(--muted); margin-bottom:8px;">Relevant Coursework</p>
       <div class="tag-row">
-        <span class="tag">Data Structures & Algorithms (Java)</span>
-        <span class="tag">Applied Python</span>
-        <span class="tag">Foundations of Data Science</span>
+        <span class="tag">Data Management (SQL & Databases)</span>
+        <span class="tag">Machine Learning & Representation Learning</span>
+        <span class="tag">Data Structures & Algorithms</span>
       </div>
     </div>
   </section>
@@ -422,6 +440,8 @@
   <!-- MARQUEE -->
   <div class="marquee-section">
     <div class="marquee-track">
+      <div class = "marquee-item"><img src="SMBC_logo.png" alt="SMBC"></div>
+      <div class = "marquee-item"><img src="MLT_logo.png" alt="MLT"></div>
       <div class = "marquee-item"><img src="WAYMO.png" alt="Waymo"></div>
       <div class = "marquee-item"><img src="HacktheHood_LOGO (1).jpg" alt="Hack the Hood"></div>
       <div class = "marquee-item"><img src="UCSD_logo.png" alt="UCSD"></div>
@@ -432,6 +452,8 @@
       <div class = "marquee-item"><img src="CER.gif" alt="CER"></div>
       <div class = "marquee-item"><img src="LA_tech.jpg" alt="LA Tech Org"></div>
       
+      <div class = "marquee-item"><img src="SMBC_logo.png" alt="SMBC"></div>
+      <div class = "marquee-item"><img src="MLT_logo.png" alt="MLT"></div>
       <div class = "marquee-item"><img src="WAYMO.png" alt="Waymo"></div>
       <div class = "marquee-item"><img src="HacktheHood_LOGO (1).jpg" alt="Hack the Hood"></div>
       <div class = "marquee-item"><img src="UCSD_logo.png" alt="UCSD"></div>
@@ -452,14 +474,48 @@
 
     <div class="entry">
       <div class="entry-header">
+        <span class="entry-title">Sumitomo Mitsui Banking Corporation (SMBC)</span>
+        <span class="entry-date">Jun 2026 – Aug 2026</span>
+      </div>
+      <p class="entry-sub">Enterprise Architecture Intern &nbsp;·&nbsp; New Jersey / New York</p>
+      <div class="entry-body">
+        <ul class="bullets">
+          <li>Co-designed and deployed AI document intelligence system (Databricks, Claude RAG, React/FastAPI): 90% reduction in analyst review time (~$0.05/doc); partnered with credit teams on requirements, built domain-specific extraction logic for structured schema output, validated across 140+ production documents, and iterated on bugs and edge cases to achieve 95%+ accuracy</li>
+          <li>Developed extraction platform standard with Databricks teams: built 6-step RAG pipeline (Claude via Databricks Model Serving, Delta Lake) with adaptive extraction methods for small/medium/large documents, achieving 95%+ field accuracy; adopted as the foundation for all document extraction across SMBC's AI app portfolio</li>
+          <li>Pitched 5-year AI transformation to executives: 12-engineer team building 800+ production apps to drive adoption 200% and boost ROTE by 15%; later consulted on competitive positioning vs. Tier 1 banks during Q&A</li>
+        </ul>
+        <div class="embed-wrap">
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7486435297535107072?collapsed=1" height="916" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
         <span class="entry-title">UCSD Data Science Student Society</span>
         <span class="entry-date">Sept 2025 – Present</span>
       </div>
-      <p class="entry-sub">Software Developer &nbsp;·&nbsp; La Jolla, CA</p>
+      <p class="entry-sub">Consulting Director (Jan 2026 – Present) &nbsp;·&nbsp; Software Developer (Sept 2025 – Jan 2026) &nbsp;·&nbsp; La Jolla, CA &nbsp;·&nbsp; <a href="https://sammyg82.github.io/ds3-energy-dashboard/" target="_blank">Energy Dashboard</a></p>
       <div class="entry-body">
         <ul class="bullets">
-          <li>Utilized best coding practices to write clean code and create front-end user interfaces for the DS3 website</li>
-          <li>Leveraged agile methodologies in weekly sprints to optimize production time</li>
+          <li>Established strategic partnerships between the club and companies including JPMorgan for consulting projects, pitching slide decks and presenting directly to management teams</li>
+          <li>Built <a href="https://sammyg82.github.io/ds3-energy-dashboard/" target="_blank">interactive dashboard</a> for CER client analyzing 16K+ IEA records; developed ARIMA forecasts showing $53B economic upside from 1.5X EV adoption across top 10 oil importers by 2030</li>
+          <li>Utilized best coding practices to write clean code and create front-end user interfaces for the DS3 website, leveraging agile methodologies in weekly sprints to optimize production time</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">BlackRock Case Study</span>
+        <span class="entry-date">Aug 2026</span>
+      </div>
+      <p class="entry-sub">Project Manager &nbsp;·&nbsp; Hosted by BlackRock &nbsp;·&nbsp; Dallas, TX</p>
+      <div class="entry-body">
+        <ul class="bullets">
+          <li>Tasked with building technology for a portfolio manager persona: software that lets them ask questions in plain English and receive details about their portfolio alongside supporting visualizations</li>
+          <li>Volunteered as project manager, facilitating architecture discussions so every teammate's ideas were heard while contributing my own, keeping the team on track, and raising concerns where needed; proposed Databricks as the input/output database, Claude Sonnet for prompting, Opus for analysis, Vercel for rapid deployment, and Skills for governance, prompting, and data visualizations</li>
+          <li>Rotated to a new team when PMs were reassigned: onboarded quickly, assessed progress, and addressed development gaps by improving their AI logic — advising on model selection, introducing prompt engineering, output logging for accuracy metrics, and governance guardrails; presented the final app to BlackRock software engineers</li>
         </ul>
       </div>
     </div>
@@ -516,6 +572,21 @@
 
     <div class="entry">
       <div class="entry-header">
+        <span class="entry-title">NvironX — DataHacks 2026 Hackathon</span>
+        <span class="entry-date">May 2026</span>
+      </div>
+      <p class="entry-sub">1st Place — Best Models Trained on Impulse AI &nbsp;·&nbsp; Team NvironX &nbsp;·&nbsp; <a href="https://devpost.com/software/nvironx" target="_blank">Devpost</a></p>
+      <div class="entry-body">
+        <ul class="bullets">
+          <li>Tackled late-stage data center cancellations that strand billions in capital: site-selection teams optimize for cost and latency while underestimating community, environmental, and regulatory risk, discovering fatal problems only after major investment</li>
+          <li>Built a geospatial intelligence platform predicting whether a proposed US data center will succeed or fail by ingesting public records, utility grid data, environmental indices, and social signals into a feature store; used Impulse AI as the core computational engine for risk scoring and Claude for natural language SHAP-style explanations, delivered through a map-first UI deployed on Vercel</li>
+          <li>Produced an overall risk score with five sub-scores (Community, Regulatory, Environmental, Utility, Governance) plus mitigation recommendations and alternative sites; retroactive validation flagged multiple high-profile failed projects, earning 1st place for best use of Impulse AI</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
         <span class="entry-title">Fantasy Football Draft App</span>
         <span class="entry-date">Aug 2025 – Sept 2025</span>
       </div>
@@ -549,6 +620,20 @@
     <p class="section-label">Leadership</p>
     <div class="entry">
       <div class="entry-header">
+        <span class="entry-title">Management Leadership for Tomorrow (MLT)</span>
+        <span class="entry-date">Jan 2026 – Present</span>
+      </div>
+      <p class="entry-sub">Career Preparation Fellow</p>
+      <div class="entry-body">
+        <ul class="bullets">
+          <li>Selected for 18-month professional development program accelerating career growth through structured coaching, mentorship, and exposure to partner organizations including LinkedIn, Bloomberg, and Deloitte</li>
+          <li>Attended Deloitte University, networked with 40+ corporate partners and went through 16 hours of professional development programming</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
         <span class="entry-title">Cal Habitat for Humanity</span>
         <span class="entry-date">Jan 2025 – June 2025</span>
       </div>
@@ -572,8 +657,20 @@
       </div>
       <div class="skill-group">
         <h4>Programming</h4>
-        <p>Python, Java, R, JavaScript, CSS / HTML</p>
+        <p>Python, R, SQL, JavaScript / TypeScript, Java, HTML / CSS</p>
       </div>
       <div class="skill-group">
-        <h4>Libraries & Tools</h4>
-        <p>Panda
+        <h4>Libraries</h4>
+        <p>Pandas, NumPy, Scikit-learn, PyTorch, XGBoost, PySpark, statsmodels, React, D3.js, FastAPI</p>
+      </div>
+      <div class="skill-group">
+        <h4>Platforms & Tools</h4>
+        <p>Databricks (Azure), Delta Lake, ADLS Gen2, Streamlit, Tableau, Power BI, Git, Agentic Development</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
